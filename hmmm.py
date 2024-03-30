@@ -55,7 +55,7 @@ def connect(ip):
         exit(1)
 
 def do_shit(dev):
-    dev.shell('adb shell am start -n com.android.tv.settings/com.android.tv.settings.MainSettings')
+    dev.shell('reboot')
 
 if __name__ == '__main__':
     print(f"Setting up", end="")
